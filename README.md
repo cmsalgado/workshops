@@ -1,6 +1,97 @@
 # Machine learning for patient stratification and classification
-Machine learning workshop for the UP-MIT Critical Data-Stanford Big Data for Health Workshops and Conference 
 
-This workshop will introduce the audience to machine learning techniques. Participants will explore the differences between supervised and unsupervised learning and practice implementing them using Python and the SciPy ecosystem. The workshop will focus on patient stratification and classification, for decision support in the intensive care unit.
+This workshop was developed for the UP-MIT Critical Data-Stanford Big Data for Health Workshops and Conference.
 
+The workshop will introduce the audience to machine learning techniques. Participants will explore the differences between supervised and unsupervised learning and practice implementing them using Python and the SciPy ecosystem. It will focus on patient stratification and classification, for decision support in the intensive care unit.
 
+# Getting Started
+
+## Prerequisites
+* Anaconda
+* Knowledge of basic python syntax
+
+## Installing
+This project requires Python and the following Python libraries installed:
+
+* **NumPy**: fundamental package for scientific computing with Python. Provides a fast numerical array structure.
+* **pandas**: provides high-performance, easy-to-use data structures and data analysis tools
+* **scikit-learn**: essential machine learning package in Python. Provides simple and efficient tools for data mining and data analysis.
+* **matplotlib**: basic plotting library.
+* **seaborn**: visualization library based on matplotlib. It provides a high-level interface for drawing statistical graphics.
+
+It is highly recommended that you install [Anaconda](https://www.anaconda.com/download/#macos), which already has the above packages and more included. In order to be able to viualize decision trees, you should install pydot and graphviz by running:
+
+> sudo apt-get install python-pydot
+
+> sudo apt-get install graphviz
+
+You will also need to have software installed to run and execute a Jupyter Notebook. This is provided by Anaconda. 
+
+## Running
+
+The majority of this workshop will be taught through the use of a Jupyter notebook, which you can download from [here](https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb). Alternatively, you can clone the repository using git:
+
+> git clone https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb
+
+A csv file containing the data used for this workshop can be found [here](https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb).
+
+# Data
+
+The data were extracted from the MIMIC-III Clinical Database, which is a large, publicly-available database comprising de-identified electronic health records of approximately 60,000 ICU admissions. Patients stayed in the intensive care unit (ICU) of the Beth Israel Deaconess Medical Center between 2001 and 2012. MIMIC-III database is described in:
+
+> Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, Mark RG. MIMIC-III, a freely accessible critical care database. Scientific Data (2016).
+
+The extracted data is stored in a csv file containing 1,730,668 rows and 17 columns. Each row corresponds to a set of observations obtained at a specific time in the ICU, and each row is associated with a ICU stay ID, which is unique for every patient. There are 21,140 unique ICU stays. The dataset was constructed based on the code provided [here](https://github.com/YerevaNN/mimic3-benchmarks) for the prediction of hospital mortality using early ICU admission data.
+
+**Variables:**
+
+* Age
+*	Gender
+*	Weight
+*	Height
+*	Diastolic blood pressure
+*	Systolic blood pressure
+*	Mean blood pressure
+*	Temperature
+*	Respiratory rate
+*	Glucose
+*	pH
+*	Glasgow coma scale
+
+**Target variable:**
+
+* In-hospital mortality
+
+# Topics covered
+
+Machine learning is divided in two main parts:
+* Patient stratification through unsupervised learning
+  * Visualization of time series trends partitioned by outcome
+  * k-means clustering
+* Patient classification through supervised learning
+  * k-nearest neighbors
+  * Logistic regression
+  * Decision trees
+  * Random forest
+
+Other topics include:
+
+* Data preprocessing
+  * Outliers
+  * Missing data
+
+* Feature engineering
+  * Feature construction
+  * Feature selection
+  * Normalization
+
+* Model evaluation
+  * ROC, AUC, sensitivity, specificity
+  * Threshold optimization 
+
+* Handling overfitting
+  * Motivation to bias-variance
+  * Training and testing
+
+# Authors
+•	Cátia Salgado  
