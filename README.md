@@ -14,18 +14,14 @@ The workshop will introduce the audience to machine learning techniques. Partici
 This project requires Python and the following Python libraries installed:
 
 * **NumPy**: fundamental package for scientific computing with Python. Provides a fast numerical array structure.
-* **pandas**: provides high-performance, easy-to-use data structures and data analysis tools
+* **pandas**: provides high-performance, easy-to-use data structures and data analysis tools.
 * **scikit-learn**: essential machine learning package in Python. Provides simple and efficient tools for data mining and data analysis.
 * **matplotlib**: basic plotting library.
 * **seaborn**: visualization library based on matplotlib. It provides a high-level interface for drawing statistical graphics.
+* **IPython**: for interactive data visualization.
+* **Jupyter**: for interactive computing.
 
-It is highly recommended that you install [Anaconda](https://www.anaconda.com/download/#macos), which already has the above packages and more included. In order to be able to viualize decision trees, you should install pydot and graphviz by running:
-
-> sudo apt-get install python-pydot
-
-> sudo apt-get install graphviz
-
-You will also need to have software installed to run and execute a Jupyter Notebook. This is provided by Anaconda. 
+It is highly recommended that you install [Anaconda](https://www.anaconda.com/download/#macos), which already has the above packages and more included. Additionally, in order to be able to viualize decision trees, you should install [pydot](https://anaconda.org/anaconda/pydot) and [graphviz](https://graphviz.gitlab.io/download/).
 
 ## Running
 
