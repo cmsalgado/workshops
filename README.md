@@ -90,4 +90,7 @@ Other topics include:
   * Training and testing
 
 # Authors
-•	Cátia Salgado  
+Cátia Salgado  
+
+# Acknowledgments
+Nikhil Shankar for providing the clinical input
