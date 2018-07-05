@@ -21,7 +21,7 @@ This project requires Python and the following Python libraries installed:
 * **IPython**: for interactive data visualization.
 * **Jupyter**: for interactive computing.
 
-It is highly recommended that you install [Anaconda](https://www.anaconda.com/download/#macos), which already has the above packages and more included. Additionally, in order to be able to viualize decision trees, you should install [pydot](https://anaconda.org/anaconda/pydot) and [graphviz](https://graphviz.gitlab.io/download/).
+It is highly recommended that you install [Anaconda](https://www.anaconda.com/download/#macos), which already has the above packages and more included. Additionally, in order to be able to visualize decision trees, you should install [pydot](https://anaconda.org/anaconda/pydot) and [graphviz](https://graphviz.gitlab.io/download/).
 
 ## Running
 
@@ -37,7 +37,7 @@ The data were extracted from the MIMIC-III Clinical Database, which is a large, 
 
 > Johnson AEW, Pollard TJ, Shen L, Lehman L, Feng M, Ghassemi M, Moody B, Szolovits P, Celi LA, Mark RG. MIMIC-III, a freely accessible critical care database. Scientific Data (2016).
 
-The extracted data is stored in a csv file containing 1,730,668 rows and 17 columns. Each row corresponds to a set of observations obtained at a specific time in the ICU, and each row is associated with a ICU stay ID, which is unique for every patient. There are 21,140 unique ICU stays. The dataset was constructed based on the code provided [here](https://github.com/YerevaNN/mimic3-benchmarks) for the prediction of hospital mortality using early ICU admission data.
+The extracted data is stored in a csv file containing 1,730,668 rows and 17 columns. Each row corresponds to a set of observations obtained at a specific time in the ICU, and each row is associated with a ICU stay ID, which is unique for every patient. There are 21,140 unique ICU stays. The dataset was constructed based on the code provided [here](https://github.com/YerevaNN/mimic3-benchmarks) for the prediction of hospital mortality using early ICU admission data (first 48 hours).
 
 **Variables:**
 
