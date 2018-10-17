@@ -25,11 +25,11 @@ It is highly recommended that you install [Anaconda](https://www.anaconda.com/do
 
 ## Running
 
-The majority of this workshop will be taught through the use of a Jupyter notebook, which you can download from [here](https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb). Alternatively, you can clone the repository using git:
+The majority of this workshop will be taught through the use of a Jupyter notebook, which you can download from [here](https://github.com/cmsalgado/workshops/blob/master/ML_taipei.ipynb). Alternatively, you can clone the repository using git:
 
-> git clone https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb
+> git clone https://github.com/cmsalgado/workshops/blob/master/ML_taipei.ipynb
 
-A csv file containing the data used for this workshop can be found [here](https://github.com/cmsalgado/workshop-bd4h/blob/master/ML_manilla.ipynb).
+A csv file containing the data used for this workshop can be found [here](https://www.dropbox.com/s/zninwtrkc6hv5g8/mimic3_mortality.csv?dl=0).
 
 # Data
 
